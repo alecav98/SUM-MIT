@@ -8,19 +8,22 @@ The motivation behind this project was a personal one. Our team wanted to apply 
 ​
 We used the [MNIST dataset](https://www.kaggle.com/rakuraku678/mnist-60000-hand-written-number-images) for digits, and a [Kaggle dataset](https://www.kaggle.com/xainano/handwrittenmathsymbols) for symbols. The MNIST dataset contained 70,000 images of white digits written on a black background. The Symbols dataset contained 100,000 images of 82 different math symbols and the numbers 0 through 9.
 ​
-It should be noted that the Symbols dataset contained pixel-by-pixel duplicated images which we removed. Thus, we ended up with ~82,000 symbols images.
-​
+It should be noted that the Symbols dataset contained pixel-by-pixel duplicated images which we removed. Thus, we ended up with ~82,000 symbols images.  
+
 ## Getting Started
+These instructions will get you a copy of the project up and running on your own Colab notebook.  
+
 ​
-These instructions will get you a copy of the project up and running on your own Colab notebook.
+The data preprocessing notebook, "Preprocessing1.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. These two files, "inverted_df" and "inverted_test_df" are the training and testing csv files that are used in the "FinalCopy.ipynb". 
+  
 ​
-The data preprocessing notebook, "Preprocessing1.ipynb", takes the MNIST Digits dataset and the Symbols dataset and converts them into two csv files. These two files, "inverted_df" and "inverted_test_df" are the training and testing csv files that are used in the "FinalCopy.ipynb".
+There are three preprocessing notebooks, they must be ran in order (1,2,3) because every notebook uses files generated in the notebook before it. The first notebook takes the MNIST Digits dataset and prepares it for merging with the symbols dataset. Similarly, the second notebook prepares the Symbols dataset. Finally, the third preprocessing notebook merges both datasets and finishes preparing the merged dataset so that it is compatible with the model.  
+  
 ​
-There are three preprocessing notebooks, they must be ran in order (1,2,3) because every notebook uses files generated in the notebook before it. The first notebook takes the MNIST Digits dataset and prepares it for merging with the symbols dataset. Similarly, the second notebook prepares the Symbols dataset. Finally, the third preprocessing notebook merges both datasets and finishes preparing the merged dataset so that it is compatible with the model.
+You could run "Preprocessing1.ipynb", "Preprocessing2.ipynb", "Preprocessing3.ipynb" to generate both 'inverted_df' and 'inverted_test_df' or you could use the copies we provided in this repo to simply run "Model.ipynb".  
+  
 ​
-You could run "Preprocessing1.ipynb", "Preprocessing2.ipynb", "Preprocessing3.ipynb" to generate both 'inverted_df' and 'inverted_test_df' or you could use the copies we provided in this repo to simply run "Model.ipynb".
-​
-You can download the notebook to your personal computer, simply make sure that you have all the necessary imports before running the code. Once you are in your copy, you can navigate to the left side of the page and open the Files tab. Here, you can upload any files necessary to run the notebook.
+You can download the notebook to your personal computer, simply make sure that you have all the necessary packages andimports before running the code. Once you are in your copy, you can navigate to the left side of the page and open the Files tab. Here, you can upload any files necessary to run the notebook.
 ​
 ## Using SUM+MIT
 ​
