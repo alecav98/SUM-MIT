@@ -31,21 +31,18 @@ In order to use SUM+MIT, create your own copy of "Model.ipynb" and upload the ne
 ​
 Continue following the code to the end, where you will arrive at your solution.
 ​
-## Built With
-​
+## Built With . 
 * [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) - The Jupyter notebook environment used
 * [Python and supported libraries](https://www.python.org/) - The programming language used
 * [TensorFlow](https://www.tensorflow.org/) - The core open source library to develop and train our ML model
 * [OpenCV](https://opencv.org/) - The library of computer vision programming functions used
 * [Keras](https://keras.io/) - A high-level neural networks API used
 ​
-## Authors
-​
+## Authors . 
 * **Lizzet Clifton**
 * **Alejandro Caviedes**
 * **Christopher O'Rourke**
 * **Rosemary Austin**
 ​
-## Acknowledgments
-​
+## Acknowledgments . 
 * Big thanks to Google's Applied Machine Learning Intensive!
