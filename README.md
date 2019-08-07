@@ -20,6 +20,9 @@ The data preprocessing notebook, "Preprocessing1.ipynb", takes the MNIST Digits 
 There are three preprocessing notebooks, they must be ran in order (1,2,3) because every notebook uses files generated in the notebook before it. The first notebook takes the MNIST Digits dataset and prepares it for merging with the symbols dataset. Similarly, the second notebook prepares the Symbols dataset. Finally, the third preprocessing notebook merges both datasets and finishes preparing the merged dataset so that it is compatible with the model.  
   
 ​
+The notebook entitled "SUMMIT_Model.ipynb" shows the process of creating the Convolutional Neural Network and saves that trained model as "cnn.h5", which we have provided for you.
+
+​
 You could run "Preprocessing1.ipynb", "Preprocessing2.ipynb", "Preprocessing3.ipynb" to generate both 'inverted_df' and 'inverted_test_df' or you could unzip and use the copies we provided in this repo. Upload those two datafames and the "cnn.h5" model file to run "SUMMIT_Application.ipynb".  
   
 ​
