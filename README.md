@@ -20,15 +20,15 @@ The data preprocessing notebook, "Preprocessing1.ipynb", takes the MNIST Digits 
 There are three preprocessing notebooks, they must be ran in order (1,2,3) because every notebook uses files generated in the notebook before it. The first notebook takes the MNIST Digits dataset and prepares it for merging with the symbols dataset. Similarly, the second notebook prepares the Symbols dataset. Finally, the third preprocessing notebook merges both datasets and finishes preparing the merged dataset so that it is compatible with the model.  
   
 ​
-You could run "Preprocessing1.ipynb", "Preprocessing2.ipynb", "Preprocessing3.ipynb" to generate both 'inverted_df' and 'inverted_test_df' or you could use the copies we provided in this repo to simply run "Model.ipynb".  
+You could run "Preprocessing1.ipynb", "Preprocessing2.ipynb", "Preprocessing3.ipynb" to generate both 'inverted_df' and 'inverted_test_df' or you could unzip and use the copies we provided in this repo. Upload those two datafames and the "cnn.h5" model file to run "SUMMIT_Application.ipynb".  
   
 ​
 You can download the notebook to your personal computer, simply make sure that you have all the necessary packages andimports before running the code. Once you are in your copy, you can navigate to the left side of the page and open the Files tab. Here, you can upload any files necessary to run the notebook.
 ​
 ## Using SUM+MIT
 ​
-In order to use SUM+MIT, create your own copy of "Model.ipynb" and upload the necessary files. Then, follow the code. The section entitled "Upload your equation" will open up a camera in Colab, where you will be able to take a picture of your own equation.
-​
+In order to use SUM+MIT, create your own copy of "SUMMIT_Application.ipynb" and upload the necessary files. Then, follow the code. The section entitled "Upload your equation" will open up a camera in Colab, where you will be able to take a picture of your own equation.
+
 Continue following the code to the end, where you will arrive at your solution.
 ​
 ## Built With 
